@@ -1,18 +1,19 @@
 
-import Liliane from "../assets/Liliane.jpg"; 
+
+import Liliane from "../assets/Liliane.jpg";
+
 const Hero = () => {
   return (
     <section
       id="Hero"
-      className="h-screen flex items-center justify-center bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 rounded-xl text-white"
+      className="h-screen flex items-center justify-center bg-gradient-to-r from-yellow-900 via-yellow-100 to-blue-500 rounded-xl text-white "
     >
-      <div className="text-center px-4 sm:px-8">
-  
-        <h1 className="text-4xl sm:text-6xl font-bold mb-4 ">
+      <div className="text-center px-6 sm:px-8 mt-24">
+        <h1 className="text-4xl sm:text-6xl font-bold mb-4 text-black">
           Hi, I am Liliane MUHOZA 👋
         </h1>
-        <p className="text-lg sm:text-xl mb-6 max-w-2xl mx-auto text-gray-300">
-          I’m a passionate developer specializing in building intuitive web applications that solve real-world problems. Let's create something amazing together!
+        <p className="text-lg sm:text-lg mb-6 max-w-2xl mx-auto text-black">
+          I’m a passionate developer specializing in building intuitive web applications that solve real-world problems. Let’s create something amazing together!
         </p>
 
         <div className="flex justify-center mb-6">
@@ -23,17 +24,19 @@ const Hero = () => {
           />
         </div>
 
-   
         <div className="flex justify-center space-x-4">
+          {/* Link to  Section */}
           <a
-            href="#about"
+            href="#AboutMe"
             className="px-6 py-3 bg-lime-600 text-white rounded-md shadow-lg hover:bg-lime-500 transition duration-300"
           >
             Learn More
           </a>
+
+          {/* Link to Skills Section */}
           <a
             href="#skills"
-            className="px-6 py-3 bg-gray-700 text-white rounded-md shadow-lg hover:bg-gray-600 transition duration-300"
+            className="px-6 py-3 bg-g-700 text-white rounded-md shadow-lg hover:bg-gray-600 transition duration-300"
           >
             View Skills
           </a>
@@ -44,4 +47,3 @@ const Hero = () => {
 };
 
 export default Hero;
-

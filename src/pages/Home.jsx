@@ -6,14 +6,13 @@ import ContactMe from "../section/ContactMe";
 import Hero from "../section/Hero";
 import Skills from "../section/Skills"
 
-
 const Home = () => {
   return (
     <main>
       <section
             id="Home"
          
-            className="h-screen flex items-center justify-center bg-gray-100"
+            className="h-screen flex items-center justify-center bg-gray-100 bg-gradient-to-r from-blue-100 via-grey-100 to-red-100 rounded-xl text-white "
           >
             <div className="text-center px-4 sm:px-8">
               <h1 className="text-4xl sm:text-6xl font-bold text-gray-800 mb-4">
@@ -26,11 +25,10 @@ const Home = () => {
               </p> 
             </div>
           </section>
-      
-     <AboutMe/>
      <Hero/>
-     <Skills/>
+     <AboutMe/>
      <ContactMe/>
+     <Skills/>
 
     </main>
   );

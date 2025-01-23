@@ -25,7 +25,7 @@ const Footer = () => {
           <Linkedin className="w-5 h-5" /> 
           LinkedIn
       <div className="flex gap-4">
-        <a href="https://facebook.com" className="text-black hover:text-blue-600  b              ">
+        <a href="https://whatsapp.com" className="text-black hover:text-blue-600  b              ">
           Whatsapp & Instagram
           </a>
           </div>

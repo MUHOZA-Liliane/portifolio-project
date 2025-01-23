@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 const Card = ({ title, description, imageUrl, styles }) => {
   return (
-    <div className=" bg-orange-500 rounded-lg shadow-lg  w-36">
+    <div className=" bg-orange-500 rounded-lg shadow-lg mb-8 w-36 ">
       <h1 className="text-lg text-center font-bold mb-2"></h1>
       <div className="p-4">
         <img

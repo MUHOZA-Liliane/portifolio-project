@@ -2,10 +2,11 @@ import NavLink from './NavLink'; // Adjust the path to your NavLink component
 
 const Navbar = () => {
   const navItems = [
-    { label: 'About Me', href: '#' },
-    { label: 'Contact Me', href: '#contactMe' },
-    { label: 'Hero', href: '#hero' },
+    { label: 'AboutMe', href: '#AboutMe' },
+    { label: 'Hero', href: '#Hero' },
+    { label: 'ContactMe', href: '#ContactMe' },
     { label: 'Skills', href: '#skills' },
+    { label: 'Footer', href: '#Footer' },
   ];
 
   return (
