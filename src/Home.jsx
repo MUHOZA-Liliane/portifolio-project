@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section
       id="Home"
-      className="h-screen flex items-center justify-center text-white rounded-md shadow-lg hover:bg-lime-500 "
+      className="h-screen flex items-center justify-center bg-gradient-to-r from-yellow-900 via-yellow-100 to-blue-500 rounded-xl text-orange-500"
     >
         <h1 className="text-4xl sm:text-6xl font-bold text-gray-800 mb-4">
           Welcome to My Portfolio
@@ -16,7 +16,7 @@ const Home = () => {
         </p>
         
         <div className="flex justify-center mt-6">
-          <Button text="Get Started" href="#aboutMe" />
+          <Button text="Get started" href="#aboutMe" />
         </div>
     </section>
   );

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import NavBar from "./components/NavBar"
 import Footer from "./components/Footer"
-import NotFound from "./pages/NotFound"
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   return (
