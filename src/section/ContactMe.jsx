@@ -1,21 +1,23 @@
 
+
 const ContactMe = () => {
   return (
-    <div id="ContactMe" className="w-full  rounded-xl py-10 hover-bg-red-700"> 
-      <section className="p-6 bg-red-200  mt-32  mb-32 text-sm h-96 rounded-lg " >
-        Contact Section
-        <ul className="mt-4 space-y-4">
-          <li> Email: lilianemuhoza7@gmail.com</li>
-          <li> Phone: +250721052842</li>
-          <li> Whatsapp: +250786404185</li>
+    <div
+      id="ContactMe"
+      className="w-full h-96 bg-slate-300 text-black rounded-xl py-10 items-center"
+    >
+      <section className="text-center space-y-6">
+        <h1 className="font-bold text-gray-800 text-3xl sm:text-4xl">
+          Contact Me
+        </h1>
+        <ul className="space-y-2 items-center flex flex-col justify-center">
+          <li className="text-lg">Phone: +250721052842</li>
+          <li className="text-lg">Email: lilianemuhoza7@gmail.com</li>
+          <li className="text-lg">WhatsApp: +250786404185</li>
         </ul>
       </section>
-      
     </div>
-  )
-}
+  );
+};
 
-export default ContactMe
-
-
-
+export default ContactMe;

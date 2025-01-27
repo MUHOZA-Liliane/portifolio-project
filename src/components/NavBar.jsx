@@ -2,7 +2,7 @@
 import Logo from '../assets/Liliane logo.png';
 const NavBar = () => {
   return (
-    <main className="fixed bg-yellow-500 w-full  h-20 rounded-xl flex items-center justify-between px-8">
+    <main className="fixed bg-blue-300 w-full  h-20 rounded-xl flex items-center justify-between px-8">
  <img src={Logo} alt="Logo" className="rounded-md w-16 h-16  bg-gray-50" />
       <nav>
         <ul className="flex space-x-10">

@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="Hero"
-      className="h-screen flex items-center justify-center bg-gradient-to-r from-yellow-900 via-yellow-100 to-blue-500 rounded-xl text-white "
+      className="h-screen flex items-center justify-center bg-slate-300 rounded-xl text-black "
     >
       <div className="text-center px-6 sm:px-8 mt-24">
         <h1 className="text-4xl sm:text-6xl font-bold mb-4 text-black">
@@ -26,7 +26,7 @@ const Hero = () => {
           {/* Link to  Section */}
           <a
             href="#AboutMe" /* Update this to point to the next relevant section */
-            className="px-6 py-3 bg-lime-600 text-white rounded-md shadow-lg hover:bg-violet-600 transition duration-300"
+            className="px-6 py-3 bg-blue-300 text-black rounded-md shadow-lg hover:bg-violet-600 transition duration-300"
           >
             Learn More
           </a>
